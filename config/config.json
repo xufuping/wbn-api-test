@@ -1,0 +1,105 @@
+{
+    "settings": {
+        "swapIntervalBlocks": 1,
+        "listeningInterval": 4000,
+        "tolerableSlippage": 0.5
+    },
+    "supportedTokenPairs": [
+        {
+            "pair": {
+                "base": {
+                    "name": "HKO",
+                    "assetId": 0,
+                    "decimal": 12,
+                    "min": "1000000000000",
+                    "max": "1000000000000000"
+                },
+                "quote": {
+                    "name": "KSM",
+                    "assetId": 100,
+                    "decimal": 12
+                }
+            }
+        },
+        {
+            "pair": {
+                "base": {
+                    "name": "KSM",
+                    "assetId": 100,
+                    "decimal": 12,
+                    "min": "100000000000",
+                    "max": "100000000000000"
+                },
+                "quote": {
+                    "name": "HKO",
+                    "assetId": 0,
+                    "decimal": 12
+                }
+            }
+        },
+        {
+            "pair": {
+                "base": {
+                    "name": "KSM",
+                    "assetId": 100,
+                    "decimal": 12,
+                    "min": "100000000000",
+                    "max": "100000000000000"
+                },
+                "quote": {
+                    "name": "sKSM",
+                    "assetId": 1000,
+                    "decimal": 12
+                }
+            }
+        },
+        {
+            "pair": {
+                "base": {
+                    "name": "sKSM",
+                    "assetId": 1000,
+                    "decimal": 12,
+                    "min": "100000000000",
+                    "max": "100000000000000"
+                },
+                "quote": {
+                    "name": "KSM",
+                    "assetId": 100,
+                    "decimal": 12
+                }
+            }
+        },
+        {
+            "pair": {
+                "base": {
+                    "name": "KSM",
+                    "assetId": 100,
+                    "decimal": 12,
+                    "min": "100000000000",
+                    "max": "100000000000000"
+                },
+                "quote": {
+                    "name": "cKSM-20/27",
+                    "assetId": 100200027,
+                    "decimal": 12
+                }
+            }
+        },
+        {
+            "pair": {
+                "base": {
+                    "name": "cKSM-20/27",
+                    "assetId": 100200027,
+                    "decimal": 12,
+                    "min": "100000000000",
+                    "max": "100000000000000"
+                },
+                "quote": {
+                    "name": "KSM",
+                    "assetId": 100,
+                    "decimal": 12
+                }
+            }
+        }
+    ]
+}

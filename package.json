@@ -1,9 +1,9 @@
 {
-    "name": "parallel-trading-bot",
+    "name": "wbn-api-test",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "repository": "https://github.com/parallel-finance/trading-bot.git",
+    "repository": "https://github.com/xufuping/wbn-api-test",
     "author": "rjman <rjman.ljm@gmail.com>",
     "license": "MIT",
     "scripts": {
@@ -17,11 +17,9 @@
         "shutdown-dev": "docker-compose down && rm -rf ./data"
     },
     "dependencies": {
-        "@parallel-finance/api": "^1.6.5",
-        "@polkadot/api": "^7.8.2-2",
+        "@binance/connector": "^1.9.2",
         "bignumber.js": "^9.0.1",
         "cosmiconfig": "^7.0.1",
-        "dotenv": "^10.0.0",
         "lodash": "^4.17.21",
         "read-pkg": "~5.2.0",
         "typeorm": "^0.2.41",
@@ -29,7 +27,6 @@
         "winston-daily-rotate-file": "^4.6.1"
     },
     "devDependencies": {
-        "@polkadot/types": "^7.8.2-2",
         "@types/lodash": "^4.14.177",
         "@types/node": "^17.0.21",
         "@types/pg": "^8.6.1",
